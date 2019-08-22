@@ -249,30 +249,30 @@ public void cal() {
 		
 		
 		int size = this.agritmdtl.size() ;
-			for (int i=0 ; i < size;) {
+			for (int i=0 ; i < size; i++) {
 				AgreementItems itm = this.agritmdtl.get(i) ;
 				itm.setAgrNum(agrtemp);
-				i = i + 1;
+			//	i = i + 1;
 		}
 	
 			int size1 = this.agrstrdtl.size() ;
-			for (int i=0 ; i < size1;) {
+			for (int i=0 ; i < size1; i++) {
 				AgreementStores str = this.agrstrdtl.get(i) ;
 				str.setAgrNum(agrtemp);
-				i = i + 1;
+			//	i = i + 1;
 		}
 			int size2 = this.agrvendtl.size() ;
-			for (int i=0 ; i < size2;) {
+			for (int i=0 ; i < size2;i++) {
 				AgreementVendor ven = this.agrvendtl.get(i) ;
 				ven.setAgrNum(agrtemp);
-				i = i + 1;
+				//i = i + 1;
 		}
 			
 			int size3 = this.agrtiers.size() ;
-			for (int i=0 ; i < size3;) {
+			for (int i=0 ; i < size3;i++) {
 				AgreementTiers tier = this.agrtiers.get(i) ;
 				tier.setAgrNum(agrtemp);
-				i = i + 1;
+			//	i = i + 1;
 		}
 			  
 
